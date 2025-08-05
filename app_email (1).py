@@ -4,7 +4,7 @@ import re
 import string
 
 # Load model
-with open("spam_classifier.pkl", "rb") as f:
+with open("spam_classifier.pkl (1)", "rb") as f:
     model = pickle.load(f)
 
 # Preprocessing function
